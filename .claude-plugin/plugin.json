@@ -1,0 +1,26 @@
+{
+  "name": "flappy",
+  "version": "0.3.1",
+  "description": "Flappy Code: jump the Claude mascot through diff hunks in a pane while Claude works",
+  "author": {
+    "name": "Joosep Hint",
+    "url": "https://github.com/JoosepHint"
+  },
+  "homepage": "https://github.com/JoosepHint/flappy-code",
+  "repository": "https://github.com/JoosepHint/flappy-code",
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "whenThinking": {
+      "type": "string",
+      "title": "When Claude thinks for a minute",
+      "description": "ask shows a one-line offer above the prompt; open opens the game by itself; off does neither.",
+      "default": "ask",
+      "options": [
+        "ask",
+        "open",
+        "off"
+      ]
+    }
+  }
+}
